@@ -11,7 +11,7 @@ function sortear () {
         numero = obterNumeroAleatorio(de, ate);
         sorteados.push(numero);
     }
-
+    alert(sorteados);
 }
 
 function obterNumeroAleatorio(min, max) {
